@@ -1,0 +1,138 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    /* font-family: 'Poppins', sans-serif; */
+}
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+html {
+    /* font-size: 65.5%; */
+    overflow-x: hidden;
+}
+.header{
+    min-height: 75px;
+    background-color: #ef4e22;
+    position: relative;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 8px;
+    margin-top: 50px;
+}
+.header .header-name{
+    min-height: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+    padding-top: 8px !important;
+    background-image: linear-gradient(141deg, #ef4e22 0, #e44748 51%, #e04157 75%);
+    margin-left: -8px;
+}
+.imageOfProfile[_ngcontent-erb-c20] {
+    float: left;
+}
+i {
+    font-style: italic;
+}
+.imageOfProfile[_ngcontent-erb-c20] img[_ngcontent-erb-c20] {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3.45px solid rgba(255, 255, 255, .4196078431372549);
+}
+
+.imageOfProfileNames[_ngcontent-erb-c20] {
+    position: relative;
+}
+.imageOfProfileNames[_ngcontent-erb-c20] span[_ngcontent-erb-c20]:nth-of-type(1) {
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    margin: 0px 8px;
+}
+.imageOfProfileNames[_ngcontent-erb-c20] span[_ngcontent-erb-c20]:nth-of-type(2) {
+    font-size: 18px;
+    color: #fff;
+    font-family: OpenSans-Semibold;
+    display: block;
+    margin: 0px 10px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+    
+}
+/* Style for the logout button */
+.logout-form {
+    margin-left: auto; /* Push logout form to the right */
+}
+
+span {
+    color: var(--main-color);
+}
+
+section {
+    padding: 1.5rem 8% 0;
+}
+.technology-used h2 {
+    margin-bottom: 2.8rem;
+}
+
+.technology-contect h3 {
+    font-size: 2rem;
+    color: #fff;
+    font-style: italic;
+
+} 
+
+.technology-contect p {
+    font-size: 1.7rem;
+    margin: 1rem 0 3rem;
+}
+.technology-contect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.technology-contect .technology-box {
+    flex: 1 1 30rem;
+    background: #007bff;
+    padding: 1.5rem 0 1.5rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    /* border: .2rem solid rgb(248, 243, 243); */
+    transition: .5s ease;
+}
+.technology-contect .technology-box .DigitalCampus-img{
+    background: url("photos\\Digital-Campus.svg");
+}
+.technology-contect .technology-box:hover {
+    border-color: var(--bg-color);
+    transform: scale(1.05);
+}
+
+.technology-box i {
+    font-size: 7.5rem;
+    color: var(--main-color);
+}
+.footer {
+    padding: 1rem;
+}
+
+.footer i{
+    font-size: 1.5rem;
+}
